@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/blue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="V K R O L L"
+            android:textSize="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ma"
+            android:textStyle="bold"
+
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/board_2"
+        android:layoutAnimation="@anim/left_side_l">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Набрать подписчиков"
+    android:layout_gravity="center"
+    android:layout_margin="50dp"
+    android:background="@color/blue"
+    android:fontFamily="@font/ma"
+    android:textColor="@color/white"
+    android:id="@+id/subscribe"
+    android:textSize="30dp"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Набрать репостов"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@color/blue"
+        android:fontFamily="@font/ma"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:id="@+id/repost"></Button>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Создать"
+            android:id="@+id/Create"
+            android:background="@color/blue_check"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="@font/ma"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Лента"
+            android:id="@+id/Scroll"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="@font/ma"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Жалоба"
+            android:id="@+id/Report"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:fontFamily="@font/ma"></Button>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

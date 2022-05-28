@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/blue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="V K R O L L"
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ma"
+            android:textStyle="bold"
+
+            ></TextView>
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/board_2"
+            android:layoutAnimation="@anim/right_side_l">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:layout_marginTop="25dp"  android:background="@color/blue"
+android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:textColor="@color/white"
+        android:layout_weight="2"
+        android:textSize="40dp"
+        android:fontFamily="@font/ma"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Id"
+        android:textColor="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:id="@+id/report_1"
+        android:textSize="40dp"
+        android:fontFamily="@font/ma"></TextView>
+</LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Спам"
+    android:layout_weight="1"
+    android:layout_margin="20dp"
+    android:background="@color/blue"
+    android:textColor="@color/white"
+    android:id="@+id/spam"
+    android:textSize="20dp"
+    android:fontFamily="@font/ma"
+    ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Насилие"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:id="@+id/spam_1"
+
+                android:textSize="20dp"
+                android:fontFamily="@font/ma"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Порнография"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:id="@+id/spam_2"
+                android:textSize="20dp"
+                android:fontFamily="@font/ma"
+                ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Нецензурная лексика"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:id="@+id/spam_3"
+                android:fontFamily="@font/ma"
+                ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Экстремизм"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:id="@+id/spam_4"
+                android:textSize="20dp"
+                android:fontFamily="@font/ma"
+                ></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Призыв к суициду"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:background="@color/blue"
+                android:textColor="@color/white"
+                android:id="@+id/spam_5"
+
+                android:fontFamily="@font/ma"></Button>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/blue"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Создать"
+            android:id="@+id/Create"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:fontFamily="@font/ma"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Лента"
+            android:id="@+id/Scroll"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:fontFamily="@font/ma"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Жалоба"
+            android:id="@+id/Report"
+            android:background="@color/blue_check"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:fontFamily="@font/ma"></Button>
+    </LinearLayout>
+</LinearLayout>

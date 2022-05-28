@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:background="@color/blue"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="V K R O L L"
+            android:textSize="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ma"
+            android:textStyle="bold"
+
+            ></TextView>
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@color/white"
+    android:orientation="horizontal"
+>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сервер"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:background="@drawable/board_1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/ma"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/link"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/board"
+        android:layout_alignParentRight ="true"
+        android:fontFamily="@font/ma"></EditText>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+      >
+        <Button
+            android:layout_alignParentRight ="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/start"
+            android:text="ок"
+            android:fontFamily="@font/ma"
+            android:background="@drawable/board_1"
+            android:textColor="@color/white"
+            android:textSize="50dp"></Button>
+    </RelativeLayout>
+
+
+</LinearLayout>

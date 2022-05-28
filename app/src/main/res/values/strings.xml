@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VKROLL</string>
+    <integer name="com_vk_sdk_AppId">7116925 </integer>
+
+</resources>

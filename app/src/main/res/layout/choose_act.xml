@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/blue">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="V k R o l l"
+            android:textSize="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/font"
+            android:textStyle="bold"
+
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Набрать подписчиков"
+    android:layout_gravity="center"
+    android:layout_margin="50dp"
+    android:background="@color/blue"
+    android:textColor="@color/white"
+    android:id="@+id/subscribe"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Набрать репостов"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:id="@+id/repost"></Button>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/blue"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Моя запись"
+            android:id="@+id/Create"
+            android:background="@color/blue"
+            android:textSize="15dp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Лента"
+            android:id="@+id/Scroll"
+            android:background="@color/blue"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            ></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="Жалоба"
+            android:id="@+id/Report"
+            android:background="@color/blue"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
